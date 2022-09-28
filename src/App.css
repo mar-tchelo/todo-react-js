@@ -12,6 +12,7 @@ body{
   justify-content: center;
   width: 100vw;
   height: 100vh;
+  background-color: #999;
 }
 
 .container{
@@ -19,7 +20,7 @@ body{
 
   margin-top: 30px;
   padding: 0 5em; 
-  display: inline-block;
+ 
   
 }
 
@@ -29,15 +30,16 @@ body{
 }
 
 .input-add{
-  margin-bottom: 50px;
-  
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #000;
 }
 
 .input-add input{
   width: 300px;
   padding: 10px 5px;
   border-radius: 10px;
-  border: solid 1px #eee;
+  border: none;
   outline: none;
   color:#000;
 
@@ -56,8 +58,7 @@ body{
   padding: 10px;
   border-radius: 10px;
   text-align: center;
-  border: solid 1px #eee;
-  border: none;
+  border: none; 
   background-color:#5FFBF1 ;
   color: #000;
 

@@ -21,6 +21,7 @@ function App() {
               value={novoItem}
               onChange={(e) => setNovoItem(e.target.value)}
               placeholder="Insira uma nova tarefa"
+              required="true"
               />
 
               <button 
